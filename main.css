@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.top {
+	width: 100%;
+	height: 45px;
+}
+
+.top-right{
+	text-align: center;
+	width: 25%;
+	height: 40px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 1px;
+	margin-left: auto;
+	margin-bottom: 2px;
+}
+
+.grid{
+	vertical-align: middle;
+}
+a:link{
+	text-decoration: none;
+	color: #4D4D4D;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+
+.top-right p a:hover:{
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+.middle-upper{
+	width: 100%;
+	height: 105px;
+	margin-top: 95px;
+	text-align: center;
+}
+.google{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+	width:30%;
+	height: 50px;
+}
+
+.microphone{
+	margin: 8px 0 0 5px;
+}
+.middle-lower{
+	width: 100%;
+	height: 35px;
+	margin-top: 35px;
+
+}
+
+.middleLowerText{
+	height: 20px;
+	width: 80%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+.micro{	
+	background: url(https://dl.dropboxusercontent.com/u/262896415/projectfolder/google-clone/images/microphone.png) no-repeat scroll 7px 7px;
+	background-position: right;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	} 
+
+.middleLower{
+	height: 20px;
+	width: 20%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 26px;
+}
+
+.footer{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	background-color: #F6F6F6;
+}
+
+.left-footer{
+	width: 20%;
+	height: 15px;
+	float: left;
+	text-align: center;
+	word-spacing: 1em;
+	margin-top: 4px;
+}
+
+.right-footer{
+	width: 20%;
+	height: 15px;
+	float: right;
+	text-align: center;
+	margin-top: 4px;
+}
+.container{
+	height: 100%;
+	width: 100%;
+}
+input[type="text"]{
+	width: 600px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.text:hover{
+	box-shadow: 0 0 0 2px #b1b3b4;
+}
+a.micro:hover:{
+	box-shadow: 0 0 0 2px #b1b3b4; 
+}
+.but{
+	padding: 5px;
+	background-color: #dcdcdc;
+	border: none;
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 7px;
+	display: inline;
+	height: 30px;
+	background: linear-gradient(#dcdcdc, #f6f6f6);
+}
+.button{
+	padding: 5px;
+	background-color: #4285f4;
+	border: 1px solid #666;
+	color: white;
+	text-decoration: none;
+}
+.but:hover{
+	box-shadow: 0 0 0 2px #b1b3b4;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline;
+}
+a.button:hover{
+	text-decoration: none;
+	color: white;
+}
+a.button:visited{
+	color: white;
+
+}
+a.button:link{
+	color: white;
+	border: none;
+}
+.sign{
+	background: linear-gradiant(#3b83bd, white);
+}
